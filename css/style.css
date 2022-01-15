@@ -1,6 +1,7 @@
 @import url("https://use.typekit.net/psg2tir.css");
 @import url("./header.css");
 @import url("./video.css");
+@import url("./features.css");
 
 * {
     box-sizing: border-box;
@@ -19,6 +20,21 @@ button {
     text-decoration: none;
     cursor: pointer;
     text-transform: uppercase;
+}
+
+.section {
+    padding: 63px 0 124px;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+}
+
+.section__title {
+    margin-bottom: 83px;
 }
 
 .link {
