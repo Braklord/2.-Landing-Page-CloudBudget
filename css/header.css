@@ -22,7 +22,8 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
+    right: 0;
+    /* width: 100%; */
     z-index: 2;
 }
 
@@ -62,7 +63,8 @@
 }
 
 .menu__link:hover {
-    font-weight: 700;
+    /* font-weight: 700; */
+    text-shadow: 0.5px 0.5px white;
 }
 
 .navbar__button {

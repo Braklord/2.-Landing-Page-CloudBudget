@@ -2,17 +2,26 @@
 @import url("./header.css");
 @import url("./video.css");
 @import url("./features.css");
+@import url("./technology.css");
 
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
+    /* outline: 1px solid #f00 !important; */
 }
 
 body {
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+}
+
+.container {
+    max-width: 1110px;
+    margin-right: auto;  
+    margin-left: auto;
+    z-index: 2; 
 }
 
 button {
@@ -39,10 +48,4 @@ button {
 
 .link {
     text-decoration: none;
-}
-
-.container {
-    max-width: 1110px;
-    margin: auto;  
-    z-index: 2; 
 }

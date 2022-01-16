@@ -5,7 +5,7 @@
 .features-block {
     display: flex;
     justify-content: space-between;
-    /* flex-basis: 33.33% */
+    flex-wrap: wrap;
 }
 
 .features-block__item {
@@ -33,7 +33,7 @@
     /* z-index: 2; */
 }
 
-.card__title {
+.features-card__title {
     display: block;
     margin-top: 33px;
     font-weight: bold;
@@ -42,7 +42,7 @@
     text-align: center;
 }
 
-.card__text {
+.features-card__text {
     display: block;
     margin-top: 20px;
     font-size: 12px;
@@ -50,7 +50,7 @@
     text-align: center;
 }
 
-.card__link {
+.features-card__link {
     display: block;
     margin-top: 30px;
     margin-bottom: 30px;
