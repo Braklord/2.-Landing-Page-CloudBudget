@@ -9,7 +9,6 @@
 }
 
 .features-block__item {
-    /* margin-bottom: 124px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,7 +29,6 @@
     border-radius: 8px;
     width: 293px;
     height: 198px;
-    /* z-index: 2; */
 }
 
 .features-card__title {
