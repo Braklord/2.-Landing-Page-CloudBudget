@@ -8,10 +8,10 @@
     box-sizing: border-box;
     margin: 0;
 
-    outline: 1px solid rgb(51, 255, 0) !important;
+    /* outline: 1px solid rgb(51, 255, 0) !important;
     opacity: 1 !important;
     visibility: visible !important;
-    z-index: 99 !important;
+    z-index: 99 !important; */
 }
 
 body {
