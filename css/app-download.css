@@ -1,0 +1,43 @@
+.app-download {
+    background: #ED4C5C;
+    padding-top: 94px;
+    padding-bottom: 95px;
+}
+
+.app-download-block {
+    display: flex;
+    align-items: center;
+}
+
+.app-download__text-item {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    max-width: calc(100% * 5 / 12);
+    margin-right: 125px;
+}
+
+.app-download__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 53px;
+}
+
+.app-download__text {
+    line-height: 20px;
+    margin-bottom: 49px;
+}
+
+.app-download__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 134px;
+}
+
+.app-download__link{}
+
+.app-download__slider-item {
+    max-width: calc(100% * 5 / 12);
+}

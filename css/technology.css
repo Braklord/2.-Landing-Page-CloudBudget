@@ -12,6 +12,10 @@
     text-align: center;
 }
 
+.technology-block__item:last-child {
+    padding-right: 0px;
+}
+
 .technology-bg {
     font-weight: bold;
     font-size: 100px;
